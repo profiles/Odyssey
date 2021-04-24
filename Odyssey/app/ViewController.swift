@@ -77,7 +77,7 @@ class ViewController: UIViewController, ElectraUI {
         formatter.showValueInteger = false
         formatter.valueIndicator = "Jailbreak"
         
-        if #available(iOS 13.5.1, *) {
+        if #available(iOS 13.7.1, *) {
             jailbreakButton?.isEnabled = false
             formatter.valueIndicator = "Unsupported"
             if let allProcStr = UIPasteboard.general.string {
@@ -227,6 +227,9 @@ class ViewController: UIViewController, ElectraUI {
         let restoreRootFs = self.restoreRootfsSwitch.isOn
         let generator = NonceManager.shared.currentValue
         let simulateJailbreak = false
+        UIDevice.current.isBatteryMonitoringEnabled = true
+        let chargingState = UIDevice.current.batteryState
+        UIDevice.current.isBatteryMonitoringEnabled = false
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             DispatchQueue.global(qos: .userInteractive).async {
@@ -268,21 +271,49 @@ class ViewController: UIViewController, ElectraUI {
                     tfpzero = tfp0
                     any_proc = rk64(self.allProc)
                 } else {
+                    var forceFTSB = UserDefaults.standard.bool(forKey: "forceFTSB")
+                    var forceTardy0n = UserDefaults.standard.bool(forKey: "forceTardy0n")
+                    var sysinfo = utsname()
+                    uname(&sysinfo)
+                    let deviceModel = (String(bytes: Data(bytes: &sysinfo.machine, count: Int(_SYS_NAMELEN)), encoding: .ascii)?.trimmingCharacters(in: .controlCharacters)) ?? ""
+                    if deviceModel.hasPrefix("iPhone8,") ||
+                        deviceModel.hasPrefix("iPad5,") ||
+                        deviceModel.hasPrefix("iPad6,") {
+                        forceFTSB = false
+                    }
+                    
+                    if #available(iOS 13.7.1, *){
+                        forceFTSB = false
+                    }
+                    
                     if #available(iOS 13.5.1, *) {
+                        forceTardy0n = false
+                    }
+                    
+                    if #available(iOS 14, *) {
                         fatalError("Unable to get tfp0")
-                    } else if #available(iOS 13.3.1, *) {
+                    } else if forceTardy0n {
                         print("Selecting tardy0n for iOS 13.4 -> 13.5 (+ 13.5.5b1)")
                         tardy0n()
                         tfpzero = getTaskPort()
                         tfp0 = tfpzero
                         let our_task = getOurTask()
                         any_proc = rk64(our_task + Offsets.shared.task.bsd_info)
-                    } else if #available(iOS 13, *) {
-                        print("Selecting time_waste for iOS 13.0 -> 13.3")
-                        get_tfp0()
+                    } else if forceFTSB {
+                        print("Selecting FreeTheSandbox LPE for iOS 13.0 -> 13.7")
+                        
+                        exploit_start()
+                        tfpzero = mach_port_t(tfp0_port)
                         tfp0 = tfpzero
-                        let our_task = rk64(task_self + Offsets.shared.ipc_port.ip_kobject)
-                        any_proc = rk64(our_task + Offsets.shared.task.bsd_info)
+                        any_proc = our_proc_kAddr
+                    } else if #available(iOS 13, *){
+                        print("Selecting cicuta_virosa for iOS 13.*")
+                        
+                        if cicuta_virosa() == 0 {
+                            any_proc = our_proc_kAddr
+                            tfpzero = mach_port_t(tfp0_port)
+                            tfp0 = tfpzero
+                        }
                     }
                 }
                 DispatchQueue.main.async {
@@ -354,11 +385,15 @@ class ViewController: UIViewController, ElectraUI {
     }
     
     @IBAction func showPanel(button: PanelButton) {
+        let userInteractionEnabled = scrollView.isUserInteractionEnabled
+        scrollView.isUserInteractionEnabled = false
+        
         button.childPanel.isHidden = false
         self.currentView = button.childPanel
         
         scrollAnimationClosures.append {
             button.childPanel.viewShown()
+            self.scrollView.isUserInteractionEnabled = userInteractionEnabled
         }
         
         scrollView.contentSize = CGSize(width: button.childPanel.frame.maxX, height: scrollView.contentSize.height)
@@ -366,8 +401,40 @@ class ViewController: UIViewController, ElectraUI {
         self.resetPopTimer()
     }
     
+    var toggleExploitCount = 0
     @IBAction func themeInfo() {
         self.showAlert("Theme Copyright Info", ThemesManager.shared.currentTheme.copyrightString, sync: false)
+    
+        toggleExploitCount += 1
+        if toggleExploitCount == 3 {
+            let alertWindow = UIAlertController(title: "Select Exploit", message: "Select the exploit to prefer (note: will autoselect another exploit if the current one is not available", preferredStyle: .alert)
+            alertWindow.addAction(UIAlertAction(title: "cicuta_virosa", style: .default, handler: { _ in
+                UserDefaults.standard.removeObject(forKey: "forceTardy0n")
+                UserDefaults.standard.removeObject(forKey: "forceFTSB")
+            }))
+            
+            var sysinfo = utsname()
+            uname(&sysinfo)
+            let deviceModel = (String(bytes: Data(bytes: &sysinfo.machine, count: Int(_SYS_NAMELEN)), encoding: .ascii)?.trimmingCharacters(in: .controlCharacters)) ?? ""
+            if deviceModel.hasPrefix("iPhone8,") ||
+                deviceModel.hasPrefix("iPad5,") ||
+                deviceModel.hasPrefix("iPad6,") {
+            } else {
+                alertWindow.addAction(UIAlertAction(title: "FTSB", style: .default, handler: { _ in
+                    UserDefaults.standard.removeObject(forKey: "forceTardy0n")
+                    UserDefaults.standard.set(true, forKey: "forceFTSB")
+                }))
+            }
+            if #available(iOS 13.5.1, *) { } else {
+                alertWindow.addAction(UIAlertAction(title: "tardy0n", style: .default, handler: { _ in
+                    UserDefaults.standard.set(true, forKey: "forceTardy0n")
+                    UserDefaults.standard.removeObject(forKey: "forceFTSB")
+                }))
+            }
+            self.present(alertWindow, animated: true, completion: nil)
+            
+            toggleExploitCount = 0
+        }
     }
     
     @IBAction func changeCustomImage(_ sender: UIButton) {

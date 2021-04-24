@@ -11,9 +11,9 @@
 #import "iokit.h"
 #import "patchfinder64.h"
 #import "tardy0n.h"
+#import "cicuta_virosa.h"
 #import "helpers.h"
 #import <xpc/xpc.h>
-
 #import "Alderis.h"
 
 int csops(pid_t pid, uint32_t op, uint32_t *addr, uint32_t opt);
@@ -27,8 +27,10 @@ void ObjcTryCatch(void (^tryBlock)(void));
 kern_return_t
 IORegistryEntrySetCFProperty(io_registry_entry_t, CFStringRef, CFTypeRef);
 
-int get_tfp0();
-extern uint64_t task_self;
+void exploit_start(void);
+extern uint32_t tfp0_port;
+extern uint64_t our_proc_kAddr;
+
 extern mach_port_t tfpzero;
 
 struct hfs_mount_args {
@@ -87,6 +89,7 @@ extern char *xpc_strerror (int);
 // Some of the routine #s launchd recognizes. There are quite a few subsystems
 
 #define ROUTINE_SUBMIT 100
+#define ROUTINE_LOAD 0x320    // 800
 #define ROUTINE_ENABLE 0x328
 #define ROUTINE_DISABLE 0x329
 

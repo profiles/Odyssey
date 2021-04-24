@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B308DD124F9BD2D008095E4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B308DD024F9BD2D008095E4 /* Reachability.swift */; };
-		1BFC3155256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */; };
-		1BFC3156256960E80012652C /* essential_0-4_iphoneos-arm.deb in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */; };
 		1BFC3158256960F50012652C /* essential_0-4_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */; };
 		1BFC3159256960F50012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */; };
 		360512E024B10E5700DFD3AF /* UICircularRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360512D824B10E5700DFD3AF /* UICircularRing.swift */; };
@@ -69,6 +66,7 @@
 		53E5643B2506F18500C4591F /* ColourViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E564392506F18500C4591F /* ColourViewer.swift */; };
 		933AA7C324E9D34F006182FC /* AppVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933AA7C224E9D34F006182FC /* AppVersionManager.swift */; };
 		933AA7C424E9D34F006182FC /* AppVersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933AA7C224E9D34F006182FC /* AppVersionManager.swift */; };
+		F104F29E25BFA1B100501E1C /* uicache.gz in Resources */ = {isa = PBXBuildFile; fileRef = F104F29D25BFA1B100501E1C /* uicache.gz */; };
 		F10593C124B1D98C00343F46 /* TableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10593C024B1D98C00343F46 /* TableButton.swift */; };
 		F10593C324B29DAC00343F46 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10593C224B29DAC00343F46 /* AvatarView.swift */; };
 		F10593C524B2A49500343F46 /* CreditsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10593C424B2A49500343F46 /* CreditsButton.swift */; };
@@ -133,26 +131,30 @@
 		F170605724CD54D5001596A0 /* electra-dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F170605624CD54D4001596A0 /* electra-dummy.swift */; };
 		F170605824CD551C001596A0 /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D35AF824B331630005400A /* ImageProcess.swift */; };
 		F170605924CD560C001596A0 /* offsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12430E4240BC986006439CC /* offsets.swift */; };
+		F189C2A125678434009F75D1 /* get_string.m in Sources */ = {isa = PBXBuildFile; fileRef = F189C29D25678434009F75D1 /* get_string.m */; };
+		F189C2A225678434009F75D1 /* ios13_kernel_universal.c in Sources */ = {isa = PBXBuildFile; fileRef = F189C29E25678434009F75D1 /* ios13_kernel_universal.c */; settings = {COMPILER_FLAGS = "-O0"; }; };
+		F189C2A325678434009F75D1 /* ios13_userspace.c in Sources */ = {isa = PBXBuildFile; fileRef = F189C29F25678434009F75D1 /* ios13_userspace.c */; settings = {COMPILER_FLAGS = "-O0"; }; };
+		F189C2A425678434009F75D1 /* ios13_userspace_pac.c in Sources */ = {isa = PBXBuildFile; fileRef = F189C2A025678434009F75D1 /* ios13_userspace_pac.c */; settings = {COMPILER_FLAGS = "-O0"; }; };
 		F191A9BD2432A948005E0F8F /* amfidtakeover.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191A9BC2432A948005E0F8F /* amfidtakeover.swift */; };
 		F191A9BF2432EC17005E0F8F /* BuildConfigs.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F191A9BE2432EC17005E0F8F /* BuildConfigs.xcconfig */; };
 		F1A2B43224B41AEA0087D978 /* NonceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43124B41AEA0087D978 /* NonceManager.swift */; };
 		F1A2B43424B430570087D978 /* PanelScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43324B430570087D978 /* PanelScrollView.swift */; };
 		F1A2B43624B430760087D978 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43524B430760087D978 /* PanelView.swift */; };
+		F1B430A325F23D0200EA2E05 /* cicuta_log.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309725F23D0200EA2E05 /* cicuta_log.c */; };
+		F1B430A425F23D0200EA2E05 /* descriptors_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309A25F23D0200EA2E05 /* descriptors_utils.c */; };
+		F1B430A525F23D0200EA2E05 /* exploit_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309B25F23D0200EA2E05 /* exploit_utilities.c */; };
+		F1B430A625F23D0200EA2E05 /* fake_element_spray.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309C25F23D0200EA2E05 /* fake_element_spray.c */; };
+		F1B430A725F23D0200EA2E05 /* cicuta_virosa.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309D25F23D0200EA2E05 /* cicuta_virosa.c */; };
+		F1B430A825F23D0200EA2E05 /* voucher_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309F25F23D0200EA2E05 /* voucher_utils.c */; };
 		F1BE3B89246DE89C005E0C00 /* basebinaries.tar in Resources */ = {isa = PBXBuildFile; fileRef = F1BE3B88246DE89C005E0C00 /* basebinaries.tar */; };
 		F1C72275246BDFDE003160B5 /* bootstrapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C72274246BDFDE003160B5 /* bootstrapUtils.swift */; };
 		F1C72279246BE180003160B5 /* bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C72278246BE180003160B5 /* bootstrap.swift */; };
-		F1C8FE7824F9D3CF008A551E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B308DD024F9BD2D008095E4 /* Reachability.swift */; };
 		F1C8FE7E24F9D492008A551E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C0993524A4560D0043250A /* Assets.xcassets */; };
-		F1C8FE8F24F9DE04008A551E /* IOAccelerator_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FE8524F9DE04008A551E /* IOAccelerator_stuff.c */; };
-		F1C8FE9024F9DE04008A551E /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FE8724F9DE04008A551E /* offsets.m */; };
-		F1C8FE9124F9DE04008A551E /* exploit_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FE8924F9DE04008A551E /* exploit_utilities.c */; };
-		F1C8FE9224F9DE04008A551E /* IOSurface_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FE8A24F9DE04008A551E /* IOSurface_stuff.c */; };
-		F1C8FE9324F9DE04008A551E /* kernel_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FE8D24F9DE04008A551E /* kernel_memory.c */; };
-		F1C8FE9424F9DE04008A551E /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = F1C8FE8E24F9DE04008A551E /* exploit.c */; };
 		F1D35AF524B3106C0005400A /* ThemesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D35AF424B3106C0005400A /* ThemesManager.swift */; };
 		F1D35AF724B311180005400A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D35AF624B311180005400A /* Theme.swift */; };
 		F1D35AF924B331630005400A /* ImageProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D35AF824B331630005400A /* ImageProcess.swift */; };
 		F1D35AFD24B409230005400A /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D35AFC24B409230005400A /* TextButton.swift */; };
+		F1D6D5EF25B3FF9E00427907 /* vnodeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D6D5EE25B3FF9E00427907 /* vnodeUtil.swift */; };
 		F1EC83E02413416D00D81445 /* cutils.c in Sources */ = {isa = PBXBuildFile; fileRef = F1EC83DF2413416D00D81445 /* cutils.c */; };
 		F1EC83E42413559400D81445 /* nvram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC83E32413559400D81445 /* nvram.swift */; };
 		F1F551DA246E585D001CE9FB /* bootstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = F1F551D9246E585C001CE9FB /* bootstrap.tar.gz */; };
@@ -236,7 +238,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B308DD024F9BD2D008095E4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "essential_0-4_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		360512D824B10E5700DFD3AF /* UICircularRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularRing.swift; sourceTree = "<group>"; };
@@ -279,6 +280,7 @@
 		53E564132506A8F400C4591F /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		53E564392506F18500C4591F /* ColourViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourViewer.swift; sourceTree = "<group>"; };
 		933AA7C224E9D34F006182FC /* AppVersionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionManager.swift; sourceTree = "<group>"; };
+		F104F29D25BFA1B100501E1C /* uicache.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = uicache.gz; sourceTree = "<group>"; };
 		F10593C024B1D98C00343F46 /* TableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableButton.swift; sourceTree = "<group>"; };
 		F10593C224B29DAC00343F46 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		F10593C424B2A49500343F46 /* CreditsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsButton.swift; sourceTree = "<group>"; };
@@ -310,31 +312,40 @@
 		F170605524CD53CD001596A0 /* OdysseyUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OdysseyUI-Info.plist"; path = "/Users/coolstar/XCode/Electra13/OdysseyUI-Info.plist"; sourceTree = "<absolute>"; };
 		F170605624CD54D4001596A0 /* electra-dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "electra-dummy.swift"; sourceTree = "<group>"; };
 		F170605A24CD5629001596A0 /* OdysseyUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OdysseyUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		F189C29D25678434009F75D1 /* get_string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = get_string.m; sourceTree = "<group>"; };
+		F189C29E25678434009F75D1 /* ios13_kernel_universal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ios13_kernel_universal.c; sourceTree = "<group>"; };
+		F189C29F25678434009F75D1 /* ios13_userspace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ios13_userspace.c; sourceTree = "<group>"; };
+		F189C2A025678434009F75D1 /* ios13_userspace_pac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ios13_userspace_pac.c; sourceTree = "<group>"; };
+		F189C2AF25678C1E009F75D1 /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTypes.h; sourceTree = "<group>"; };
+		F189C2B025678C1E009F75D1 /* IOKitKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitKeys.h; sourceTree = "<group>"; };
+		F189C2B125678C1E009F75D1 /* IOReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReturn.h; sourceTree = "<group>"; };
+		F189C2B225678C1E009F75D1 /* OSMessageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMessageNotification.h; sourceTree = "<group>"; };
+		F189C2B325678C1E009F75D1 /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
 		F191A9BC2432A948005E0F8F /* amfidtakeover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amfidtakeover.swift; sourceTree = "<group>"; };
 		F191A9BE2432EC17005E0F8F /* BuildConfigs.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildConfigs.xcconfig; sourceTree = "<group>"; };
 		F1A2B43124B41AEA0087D978 /* NonceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonceManager.swift; sourceTree = "<group>"; };
 		F1A2B43324B430570087D978 /* PanelScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelScrollView.swift; sourceTree = "<group>"; };
 		F1A2B43524B430760087D978 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		F1B4309725F23D0200EA2E05 /* cicuta_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cicuta_log.c; sourceTree = "<group>"; };
+		F1B4309825F23D0200EA2E05 /* voucher_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voucher_utils.h; sourceTree = "<group>"; };
+		F1B4309925F23D0200EA2E05 /* cicuta_virosa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cicuta_virosa.h; sourceTree = "<group>"; };
+		F1B4309A25F23D0200EA2E05 /* descriptors_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = descriptors_utils.c; sourceTree = "<group>"; };
+		F1B4309B25F23D0200EA2E05 /* exploit_utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit_utilities.c; sourceTree = "<group>"; };
+		F1B4309C25F23D0200EA2E05 /* fake_element_spray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fake_element_spray.c; sourceTree = "<group>"; };
+		F1B4309D25F23D0200EA2E05 /* cicuta_virosa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cicuta_virosa.c; sourceTree = "<group>"; };
+		F1B4309E25F23D0200EA2E05 /* cicuta_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cicuta_log.h; sourceTree = "<group>"; };
+		F1B4309F25F23D0200EA2E05 /* voucher_utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = voucher_utils.c; sourceTree = "<group>"; };
+		F1B430A025F23D0200EA2E05 /* exploit_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit_utilities.h; sourceTree = "<group>"; };
+		F1B430A125F23D0200EA2E05 /* descriptors_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descriptors_utils.h; sourceTree = "<group>"; };
+		F1B430A225F23D0200EA2E05 /* fake_element_spray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fake_element_spray.h; sourceTree = "<group>"; };
 		F1BE3B88246DE89C005E0C00 /* basebinaries.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; path = basebinaries.tar; sourceTree = "<group>"; };
 		F1C72274246BDFDE003160B5 /* bootstrapUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootstrapUtils.swift; sourceTree = "<group>"; };
 		F1C72278246BE180003160B5 /* bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bootstrap.swift; sourceTree = "<group>"; };
-		F1C8FE8224F9DE04008A551E /* exploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit.h; sourceTree = "<group>"; };
-		F1C8FE8324F9DE04008A551E /* IOAccelerator_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAccelerator_stuff.h; sourceTree = "<group>"; };
-		F1C8FE8424F9DE04008A551E /* exploit_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit_utilities.h; sourceTree = "<group>"; };
-		F1C8FE8524F9DE04008A551E /* IOAccelerator_stuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOAccelerator_stuff.c; sourceTree = "<group>"; };
-		F1C8FE8624F9DE04008A551E /* kernel_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_memory.h; sourceTree = "<group>"; };
-		F1C8FE8724F9DE04008A551E /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
-		F1C8FE8824F9DE04008A551E /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
-		F1C8FE8924F9DE04008A551E /* exploit_utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit_utilities.c; sourceTree = "<group>"; };
-		F1C8FE8A24F9DE04008A551E /* IOSurface_stuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOSurface_stuff.c; sourceTree = "<group>"; };
-		F1C8FE8B24F9DE04008A551E /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
-		F1C8FE8C24F9DE04008A551E /* IOSurface_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurface_stuff.h; sourceTree = "<group>"; };
-		F1C8FE8D24F9DE04008A551E /* kernel_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_memory.c; sourceTree = "<group>"; };
-		F1C8FE8E24F9DE04008A551E /* exploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit.c; sourceTree = "<group>"; };
 		F1D35AF424B3106C0005400A /* ThemesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesManager.swift; sourceTree = "<group>"; };
 		F1D35AF624B311180005400A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F1D35AF824B331630005400A /* ImageProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcess.swift; sourceTree = "<group>"; };
 		F1D35AFC24B409230005400A /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		F1D6D5EE25B3FF9E00427907 /* vnodeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vnodeUtil.swift; sourceTree = "<group>"; };
 		F1EC83DE2413416D00D81445 /* cutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cutils.h; sourceTree = "<group>"; };
 		F1EC83DF2413416D00D81445 /* cutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutils.c; sourceTree = "<group>"; };
 		F1EC83E22413421700D81445 /* iokit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iokit.h; sourceTree = "<group>"; };
@@ -351,8 +362,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BFC3156256960E80012652C /* essential_0-4_iphoneos-arm.deb in Frameworks */,
-				1BFC3155256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +502,7 @@
 				F124309C240BB71D006439CC /* post-exploit */,
 				F124309B240BB717006439CC /* exploit */,
 				F14A7A8724A6F9CA00215A6F /* exploit2 */,
+				F1B4309125F23CC600EA2E05 /* exploit3 */,
 				F124309A240BB3CE006439CC /* app */,
 				36C0993524A4560D0043250A /* Assets.xcassets */,
 				F124309D240BB72E006439CC /* Odyssey-Bridging-Header.h */,
@@ -524,7 +534,6 @@
 				F1141A2324B024A600638BDA /* UIApplication+Window.swift */,
 				F170605624CD54D4001596A0 /* electra-dummy.swift */,
 				933AA7C224E9D34F006182FC /* AppVersionManager.swift */,
-				1B308DD024F9BD2D008095E4 /* Reachability.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -532,19 +541,11 @@
 		F124309B240BB717006439CC /* exploit */ = {
 			isa = PBXGroup;
 			children = (
-				F1C8FE8924F9DE04008A551E /* exploit_utilities.c */,
-				F1C8FE8424F9DE04008A551E /* exploit_utilities.h */,
-				F1C8FE8E24F9DE04008A551E /* exploit.c */,
-				F1C8FE8224F9DE04008A551E /* exploit.h */,
-				F1C8FE8524F9DE04008A551E /* IOAccelerator_stuff.c */,
-				F1C8FE8324F9DE04008A551E /* IOAccelerator_stuff.h */,
-				F1C8FE8824F9DE04008A551E /* IOKitLib.h */,
-				F1C8FE8A24F9DE04008A551E /* IOSurface_stuff.c */,
-				F1C8FE8C24F9DE04008A551E /* IOSurface_stuff.h */,
-				F1C8FE8D24F9DE04008A551E /* kernel_memory.c */,
-				F1C8FE8624F9DE04008A551E /* kernel_memory.h */,
-				F1C8FE8B24F9DE04008A551E /* offsets.h */,
-				F1C8FE8724F9DE04008A551E /* offsets.m */,
+				F189C2AE25678C1E009F75D1 /* include */,
+				F189C29D25678434009F75D1 /* get_string.m */,
+				F189C29E25678434009F75D1 /* ios13_kernel_universal.c */,
+				F189C2A025678434009F75D1 /* ios13_userspace_pac.c */,
+				F189C29F25678434009F75D1 /* ios13_userspace.c */,
 			);
 			path = exploit;
 			sourceTree = "<group>";
@@ -576,6 +577,7 @@
 				F13C16312436979D00194BF3 /* sethsp4.swift */,
 				F13C163B24371E9600194BF3 /* kernSlide.swift */,
 				F1C72274246BDFDE003160B5 /* bootstrapUtils.swift */,
+				F1D6D5EE25B3FF9E00427907 /* vnodeUtil.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -593,6 +595,18 @@
 			path = exploit2;
 			sourceTree = "<group>";
 		};
+		F189C2AE25678C1E009F75D1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F189C2AF25678C1E009F75D1 /* IOTypes.h */,
+				F189C2B025678C1E009F75D1 /* IOKitKeys.h */,
+				F189C2B125678C1E009F75D1 /* IOReturn.h */,
+				F189C2B225678C1E009F75D1 /* OSMessageNotification.h */,
+				F189C2B325678C1E009F75D1 /* IOKitLib.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		F191A9C024330DCD005E0F8F /* resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -602,8 +616,28 @@
 				1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */,
 				F13C1675243C0E3300194BF3 /* signcert.p12 */,
 				F1F551E7246E677D001CE9FB /* tar.gz */,
+				F104F29D25BFA1B100501E1C /* uicache.gz */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		F1B4309125F23CC600EA2E05 /* exploit3 */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4309725F23D0200EA2E05 /* cicuta_log.c */,
+				F1B4309E25F23D0200EA2E05 /* cicuta_log.h */,
+				F1B4309D25F23D0200EA2E05 /* cicuta_virosa.c */,
+				F1B4309925F23D0200EA2E05 /* cicuta_virosa.h */,
+				F1B4309A25F23D0200EA2E05 /* descriptors_utils.c */,
+				F1B430A125F23D0200EA2E05 /* descriptors_utils.h */,
+				F1B4309B25F23D0200EA2E05 /* exploit_utilities.c */,
+				F1B430A025F23D0200EA2E05 /* exploit_utilities.h */,
+				F1B4309C25F23D0200EA2E05 /* fake_element_spray.c */,
+				F1B430A225F23D0200EA2E05 /* fake_element_spray.h */,
+				F1B4309F25F23D0200EA2E05 /* voucher_utils.c */,
+				F1B4309825F23D0200EA2E05 /* voucher_utils.h */,
+			);
+			path = exploit3;
 			sourceTree = "<group>";
 		};
 		F1D35AF324B3105D0005400A /* ThemesManager */ = {
@@ -755,6 +789,7 @@
 				36C0994624A456390043250A /* LaunchScreen.storyboard in Resources */,
 				F13C1676243C108D00194BF3 /* signcert.p12 in Resources */,
 				F191A9BF2432EC17005E0F8F /* BuildConfigs.xcconfig in Resources */,
+				F104F29E25BFA1B100501E1C /* uicache.gz in Resources */,
 				F1F551DA246E585D001CE9FB /* bootstrap.tar.gz in Resources */,
 				36C0994124A456390043250A /* Main.storyboard in Resources */,
 				F1BE3B89246DE89C005E0C00 /* basebinaries.tar in Resources */,
@@ -823,14 +858,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E5642B2506A8F400C4591F /* ColorPickerDelegate.swift in Sources */,
+				F189C2A425678434009F75D1 /* ios13_userspace_pac.c in Sources */,
+				F1B430A725F23D0200EA2E05 /* cicuta_virosa.c in Sources */,
 				53E5641D2506A8F400C4591F /* ColorPickerSwatchViewController.swift in Sources */,
 				F1D35AFD24B409230005400A /* TextButton.swift in Sources */,
 				F1A2B43224B41AEA0087D978 /* NonceManager.swift in Sources */,
+				F1B430A325F23D0200EA2E05 /* cicuta_log.c in Sources */,
 				F13C16322436979D00194BF3 /* sethsp4.swift in Sources */,
 				360512E724B10E5700DFD3AF /* UICircularRingValueFormatter.swift in Sources */,
 				F1141A0924AF145A00638BDA /* helpers.c in Sources */,
 				F12430E5240BC986006439CC /* offsets.swift in Sources */,
-				F1C8FE9024F9DE04008A551E /* offsets.m in Sources */,
 				36C0994324A456390043250A /* BackgroundView.swift in Sources */,
 				53E5641B2506A8F400C4591F /* ColorPickerSeparatorView.swift in Sources */,
 				53E564272506A8F400C4591F /* ColorPickerViewController.swift in Sources */,
@@ -846,10 +883,8 @@
 				F1EC83E42413559400D81445 /* nvram.swift in Sources */,
 				F1A2B43424B430570087D978 /* PanelScrollView.swift in Sources */,
 				F13C163C24371E9600194BF3 /* kernSlide.swift in Sources */,
+				F1B430A625F23D0200EA2E05 /* fake_element_spray.c in Sources */,
 				F1C72275246BDFDE003160B5 /* bootstrapUtils.swift in Sources */,
-				F1C8FE9224F9DE04008A551E /* IOSurface_stuff.c in Sources */,
-				F1C8FE8F24F9DE04008A551E /* IOAccelerator_stuff.c in Sources */,
-				F1C8FE9124F9DE04008A551E /* exploit_utilities.c in Sources */,
 				360512E024B10E5700DFD3AF /* UICircularRing.swift in Sources */,
 				F1A2B43624B430760087D978 /* PanelView.swift in Sources */,
 				53E564252506A8F400C4591F /* UIColor+HBAdditions.m in Sources */,
@@ -869,22 +904,28 @@
 				F10593C524B2A49500343F46 /* CreditsButton.swift in Sources */,
 				F10593D424B2FA4500343F46 /* SelectionButton.swift in Sources */,
 				53E5642F2506A8F400C4591F /* ColorPickerCircleView.swift in Sources */,
+				F189C2A325678434009F75D1 /* ios13_userspace.c in Sources */,
 				53E564352506A8F400C4591F /* Color.swift in Sources */,
 				36C0994424A456390043250A /* AnimatingColourView.swift in Sources */,
 				F1FF240824AC97E500ACAE23 /* LogViewController.swift in Sources */,
 				F10593C324B29DAC00343F46 /* AvatarView.swift in Sources */,
+				F189C2A225678434009F75D1 /* ios13_kernel_universal.c in Sources */,
 				36C0994824A456390043250A /* SeparatorView.swift in Sources */,
 				360512E624B10E5700DFD3AF /* UICircularProgressRing.swift in Sources */,
+				F189C2A125678434009F75D1 /* get_string.m in Sources */,
 				F14A7A9024A6FB3500215A6F /* kmem.c in Sources */,
 				531039962504F59800CADF5C /* AlderisButton.swift in Sources */,
 				F125E0532469E59F0023161C /* patchfinder64.c in Sources */,
 				F1D35AF924B331630005400A /* ImageProcess.swift in Sources */,
+				F1B430A825F23D0200EA2E05 /* voucher_utils.c in Sources */,
 				53E564212506A8F400C4591F /* ColorPickerSlider.swift in Sources */,
 				53E564312506A8F400C4591F /* ColorPickerTabViewController.swift in Sources */,
 				53E564192506A8F400C4591F /* ColorPickerSlidersViewController.swift in Sources */,
-				F1C8FE9324F9DE04008A551E /* kernel_memory.c in Sources */,
 				F11EFF2324BA6CDD005152A8 /* ToggleView.swift in Sources */,
+				F1B430A425F23D0200EA2E05 /* descriptors_utils.c in Sources */,
+				F1B430A525F23D0200EA2E05 /* exploit_utilities.c in Sources */,
 				F12430DA240BC199006439CC /* electra.swift in Sources */,
+				F1D6D5EF25B3FF9E00427907 /* vnodeUtil.swift in Sources */,
 				53E564232506A8F400C4591F /* LayoutGuide.swift in Sources */,
 				F1C72279246BE180003160B5 /* bootstrap.swift in Sources */,
 				F1D35AF724B311180005400A /* Theme.swift in Sources */,
@@ -893,10 +934,8 @@
 				F1FF240124AC946C00ACAE23 /* LogStream.swift in Sources */,
 				53E564292506A8F400C4591F /* ColorPickerMapSlider.swift in Sources */,
 				53E5643A2506F18500C4591F /* ColourViewer.swift in Sources */,
-				1B308DD124F9BD2D008095E4 /* Reachability.swift in Sources */,
 				53E564152506A8F400C4591F /* ColorPickerInnerViewController.swift in Sources */,
 				F14A7A8C24A6F9CA00215A6F /* tardy0n.cc in Sources */,
-				F1C8FE9424F9DE04008A551E /* exploit.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,7 +944,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E5642C2506A8F400C4591F /* ColorPickerDelegate.swift in Sources */,
-				F1C8FE7824F9D3CF008A551E /* Reachability.swift in Sources */,
 				53E564322506A8F400C4591F /* ColorPickerTabViewController.swift in Sources */,
 				F170605924CD560C001596A0 /* offsets.swift in Sources */,
 				53E5641E2506A8F400C4591F /* ColorPickerSwatchViewController.swift in Sources */,
@@ -1101,6 +1139,10 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Odyssey/post-exploit/include/\"",
+					"\"$(SRCROOT)/Odyssey/exploit/include\"",
+				);
 				INFOPLIST_FILE = Odyssey/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1111,7 +1153,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.3.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
@@ -1133,9 +1175,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCM49M8P5K;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Odyssey/post-exploit/include/\"",
+					"\"$(SRCROOT)/Odyssey/exploit/include\"",
+				);
 				INFOPLIST_FILE = Odyssey/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1146,7 +1192,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.3.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,

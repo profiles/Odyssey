@@ -12,11 +12,11 @@ This project is being developed and open sourced in his memory, as he was intere
 
 # Supported Devices
 
-All A9-A13 devices on iOS 13.0-13.5
+All A9-A13 devices on iOS 13.0-13.7
 
 # Status
 
-* Exploit: Re-implementation of lightspeed (Working)
+* Exploit: tardy0n [13.0 - 13.5], FTSB [13.0 - 13.7 on A9-A13] OR cicuta_virosa [13.0 - 13.7]
 * Privilege Escalation (to root): Working 
 * Nonce Setter: Working 
 * Remount: Working 
@@ -30,8 +30,6 @@ All A9-A13 devices on iOS 13.0-13.5
 # License
 
 Odyssey is licensed under the 3-Clause BSD License
-
-Note: should you choose to include time_waste, you must license the project as GPL. If you choose to only use tardy0n, you may license it as BSD-3.
 
 # Credits
 
