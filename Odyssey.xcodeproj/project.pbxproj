@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1BFC3158256960F50012652C /* essential_0-4_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */; };
-		1BFC3159256960F50012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */; };
 		360512E024B10E5700DFD3AF /* UICircularRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360512D824B10E5700DFD3AF /* UICircularRing.swift */; };
 		360512E124B10E5700DFD3AF /* UICircularRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360512D924B10E5700DFD3AF /* UICircularRingLayer.swift */; };
 		360512E224B10E5700DFD3AF /* UICircularRingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360512DA24B10E5700DFD3AF /* UICircularRingStyle.swift */; };
@@ -26,6 +25,7 @@
 		36C0994724A456390043250A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0993D24A456390043250A /* SceneDelegate.swift */; };
 		36C0994824A456390043250A /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0993E24A456390043250A /* SeparatorView.swift */; };
 		36C0994924A456390043250A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0993F24A456390043250A /* AppDelegate.swift */; };
+		36EC9E97265B110700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 36EC9E95265B10D700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */; };
 		5310399125041BB400CADF5C /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310399025041BB400CADF5C /* ThemeImagePicker.swift */; };
 		5310399225041BB400CADF5C /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310399025041BB400CADF5C /* ThemeImagePicker.swift */; };
 		531039962504F59800CADF5C /* AlderisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531039952504F59800CADF5C /* AlderisButton.swift */; };
@@ -238,7 +238,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "essential_0-4_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		360512D824B10E5700DFD3AF /* UICircularRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularRing.swift; sourceTree = "<group>"; };
 		360512D924B10E5700DFD3AF /* UICircularRingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICircularRingLayer.swift; sourceTree = "<group>"; };
@@ -258,6 +257,7 @@
 		36C0993D24A456390043250A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36C0993E24A456390043250A /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		36C0993F24A456390043250A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36EC9E95265B10D700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.1_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		5310399025041BB400CADF5C /* ThemeImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImagePicker.swift; sourceTree = "<group>"; };
 		531039952504F59800CADF5C /* AlderisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlderisButton.swift; sourceTree = "<group>"; };
 		53E564012506A8F400C4591F /* ColorPickerInnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerInnerViewController.swift; sourceTree = "<group>"; };
@@ -613,7 +613,7 @@
 				F1BE3B88246DE89C005E0C00 /* basebinaries.tar */,
 				F1F551D9246E585C001CE9FB /* bootstrap.tar.gz */,
 				1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */,
-				1BFC3153256960E80012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb */,
+				36EC9E95265B10D700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */,
 				F13C1675243C0E3300194BF3 /* signcert.p12 */,
 				F1F551E7246E677D001CE9FB /* tar.gz */,
 				F104F29D25BFA1B100501E1C /* uicache.gz */,
@@ -785,7 +785,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFC3158256960F50012652C /* essential_0-4_iphoneos-arm.deb in Resources */,
-				1BFC3159256960F50012652C /* org.coolstar.sileo_2.0.0b7-1_iphoneos-arm.deb in Resources */,
 				36C0994624A456390043250A /* LaunchScreen.storyboard in Resources */,
 				F13C1676243C108D00194BF3 /* signcert.p12 in Resources */,
 				F191A9BF2432EC17005E0F8F /* BuildConfigs.xcconfig in Resources */,
@@ -795,6 +794,7 @@
 				F1BE3B89246DE89C005E0C00 /* basebinaries.tar in Resources */,
 				36C0993624A4560D0043250A /* Assets.xcassets in Resources */,
 				F1F551E8246E6788001CE9FB /* tar.gz in Resources */,
+				36EC9E97265B110700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
