@@ -8,8 +8,8 @@ all: clean
 	cd Odyssey/resources && tar -xf basebinaries.tar
 	rm -f Odyssey/resources/{amfidebilitate,migration,basebinaries.tar}
 	cp {amfidebilitate,migrationsupport}/bin/* Odyssey/resources
-	cd Odyssey/resources && tar -cf basebinaries.tar amfidebilitate jailbreakd jbexec migration pspawn_payload-stg2.dylib pspawn_payload.dylib
-	rm -f Odyssey/resources/{amfidebilitate,jailbreakd,jbexec,migration,*.dylib}
+	cd Odyssey/resources && tar -cf basebinaries.tar amfidebilitate jailbreakd jbexec launchjailbreak migration pspawn_payload-stg2.dylib pspawn_payload.dylib
+	rm -f Odyssey/resources/{amfidebilitate,jailbreakd,jbexec,launchjailbreak,migration,*.dylib}
 	xcodebuild clean build CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=NO PRODUCT_BUNDLE_IDENTIFIER="$(BUNDLE)" -sdk iphoneos -scheme Odyssey -configuration Release -derivedDataPath build
 	ln -sf build/Build/Products/Release-iphoneos Payload
 	rm -rf Payload/Odyssey.app/Frameworks
