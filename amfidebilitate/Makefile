@@ -2,8 +2,12 @@ TARGETNAME = amfidebilitate
 OUTDIR ?= bin
 
 SWIFTC = xcrun -sdk iphoneos swiftc -target $(ARCH)-apple-ios13.0
-CC = xcrun -sdk iphoneos clang -arch $(ARCH)
+CC = xcrun -sdk iphoneos clang -arch $(ARCH) -target $(ARCH)-apple-ios13.0
+ifneq (,$(wildcard /opt/procursus/bin/ldid))
+LDID = /opt/procursus/bin/ldid
+else
 LDID = ./ldid
+endif
 
 .PHONY: all clean
 

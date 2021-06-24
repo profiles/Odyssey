@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MachO.dyld_images
+import MachO
 
 class ViewController: UIViewController, ElectraUI {
 

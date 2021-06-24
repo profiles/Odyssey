@@ -3,7 +3,11 @@ OUTDIR ?= bin
 
 SWIFTC = xcrun -sdk iphoneos swiftc -target arm64-apple-ios11.0
 CC = xcrun -sdk iphoneos clang -arch arm64
+ifneq (,$(wildcard /opt/procursus/bin/ldid))
+LDID = /opt/procursus/bin/ldid
+else
 LDID = ../amfidebilitate/ldid
+endif
 
 .PHONY: all clean
 
