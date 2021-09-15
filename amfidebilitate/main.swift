@@ -75,6 +75,9 @@ while true {
 
     let amfidtakeover = AmfidTakeover(electra: electra)
     amfidtakeover.takeoverAmfid(amfid_pid: electra.amfid_pid)
+
+    sleep(1)
+    try? String(format: "%d", getpid()).write(toFile: "/var/run/amfidebilitate.pid", atomically: false, encoding: .utf8)
     
     let kq = getKqueueForPid(pid: pid_t(electra.amfid_pid))
     var ke = kevent()
