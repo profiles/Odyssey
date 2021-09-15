@@ -25,7 +25,6 @@
 		36C0994724A456390043250A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0993D24A456390043250A /* SceneDelegate.swift */; };
 		36C0994824A456390043250A /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0993E24A456390043250A /* SeparatorView.swift */; };
 		36C0994924A456390043250A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0993F24A456390043250A /* AppDelegate.swift */; };
-		36EC9E97265B110700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = 36EC9E95265B10D700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */; };
 		5310399125041BB400CADF5C /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310399025041BB400CADF5C /* ThemeImagePicker.swift */; };
 		5310399225041BB400CADF5C /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5310399025041BB400CADF5C /* ThemeImagePicker.swift */; };
 		531039962504F59800CADF5C /* AlderisButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531039952504F59800CADF5C /* AlderisButton.swift */; };
@@ -140,6 +139,7 @@
 		F1A2B43224B41AEA0087D978 /* NonceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43124B41AEA0087D978 /* NonceManager.swift */; };
 		F1A2B43424B430570087D978 /* PanelScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43324B430570087D978 /* PanelScrollView.swift */; };
 		F1A2B43624B430760087D978 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43524B430760087D978 /* PanelView.swift */; };
+		F1B13F0426F2ACB400A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F0226F2ACAB00A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb */; };
 		F1B430A325F23D0200EA2E05 /* cicuta_log.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309725F23D0200EA2E05 /* cicuta_log.c */; };
 		F1B430A425F23D0200EA2E05 /* descriptors_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309A25F23D0200EA2E05 /* descriptors_utils.c */; };
 		F1B430A525F23D0200EA2E05 /* exploit_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309B25F23D0200EA2E05 /* exploit_utilities.c */; };
@@ -257,7 +257,6 @@
 		36C0993D24A456390043250A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36C0993E24A456390043250A /* SeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
 		36C0993F24A456390043250A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36EC9E95265B10D700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.1_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		5310399025041BB400CADF5C /* ThemeImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImagePicker.swift; sourceTree = "<group>"; };
 		531039952504F59800CADF5C /* AlderisButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlderisButton.swift; sourceTree = "<group>"; };
 		53E564012506A8F400C4591F /* ColorPickerInnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerInnerViewController.swift; sourceTree = "<group>"; };
@@ -326,6 +325,7 @@
 		F1A2B43124B41AEA0087D978 /* NonceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonceManager.swift; sourceTree = "<group>"; };
 		F1A2B43324B430570087D978 /* PanelScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelScrollView.swift; sourceTree = "<group>"; };
 		F1A2B43524B430760087D978 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
+		F1B13F0226F2ACAB00A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.2.3_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		F1B4309725F23D0200EA2E05 /* cicuta_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cicuta_log.c; sourceTree = "<group>"; };
 		F1B4309825F23D0200EA2E05 /* voucher_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voucher_utils.h; sourceTree = "<group>"; };
 		F1B4309925F23D0200EA2E05 /* cicuta_virosa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cicuta_virosa.h; sourceTree = "<group>"; };
@@ -613,7 +613,7 @@
 				F1BE3B88246DE89C005E0C00 /* basebinaries.tar */,
 				F1F551D9246E585C001CE9FB /* bootstrap.tar.gz */,
 				1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */,
-				36EC9E95265B10D700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb */,
+				F1B13F0226F2ACAB00A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb */,
 				F13C1675243C0E3300194BF3 /* signcert.p12 */,
 				F1F551E7246E677D001CE9FB /* tar.gz */,
 				F104F29D25BFA1B100501E1C /* uicache.gz */,
@@ -785,6 +785,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFC3158256960F50012652C /* essential_0-4_iphoneos-arm.deb in Resources */,
+				F1B13F0426F2ACB400A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb in Resources */,
 				36C0994624A456390043250A /* LaunchScreen.storyboard in Resources */,
 				F13C1676243C108D00194BF3 /* signcert.p12 in Resources */,
 				F191A9BF2432EC17005E0F8F /* BuildConfigs.xcconfig in Resources */,
@@ -794,7 +795,6 @@
 				F1BE3B89246DE89C005E0C00 /* basebinaries.tar in Resources */,
 				36C0993624A4560D0043250A /* Assets.xcassets in Resources */,
 				F1F551E8246E6788001CE9FB /* tar.gz in Resources */,
-				36EC9E97265B110700A48A05 /* org.coolstar.sileo_2.1_iphoneos-arm.deb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1153,7 +1153,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.3.4;
+				MARKETING_VERSION = 1.4.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
@@ -1192,7 +1192,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.3.4;
+				MARKETING_VERSION = 1.4.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
