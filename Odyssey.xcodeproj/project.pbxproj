@@ -1153,7 +1153,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.4.0;
+				MARKETING_VERSION = 1.4.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
@@ -1192,7 +1192,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.4.0;
+				MARKETING_VERSION = 1.4.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
