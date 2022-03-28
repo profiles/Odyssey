@@ -14,16 +14,9 @@ This project is being developed and open sourced in his memory, as he was intere
 
 All A9-A13 devices on iOS 13.0-13.7
 
-# Status
+# Info
 
 * Exploit: tardy0n [13.0 - 13.5], FTSB [13.0 - 13.7 on A9-A13] OR cicuta_virosa [13.0 - 13.7]
-* Privilege Escalation (to root): Working 
-* Nonce Setter: Working 
-* Remount: Working 
-* Codesign Bypass: Working 
-* SSH: Working
-* CoreTrust Bypass: Working
-* Code Injection: Working
 * Injection Library: libhooker
 * Bootstrap: Procursus included
 
@@ -33,4 +26,4 @@ Odyssey is licensed under the 3-Clause BSD License
 
 # Credits
 
-Kind regards to [syns](https://github.com/syns) for his assistance with this readme
+Kind regards to [arceseus](https://github.com/arceseus) for his assistance with this readme
