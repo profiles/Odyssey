@@ -139,7 +139,6 @@
 		F1A2B43224B41AEA0087D978 /* NonceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43124B41AEA0087D978 /* NonceManager.swift */; };
 		F1A2B43424B430570087D978 /* PanelScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43324B430570087D978 /* PanelScrollView.swift */; };
 		F1A2B43624B430760087D978 /* PanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B43524B430760087D978 /* PanelView.swift */; };
-		F1B13F0426F2ACB400A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = F1B13F0226F2ACAB00A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb */; };
 		F1B430A325F23D0200EA2E05 /* cicuta_log.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309725F23D0200EA2E05 /* cicuta_log.c */; };
 		F1B430A425F23D0200EA2E05 /* descriptors_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309A25F23D0200EA2E05 /* descriptors_utils.c */; };
 		F1B430A525F23D0200EA2E05 /* exploit_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = F1B4309B25F23D0200EA2E05 /* exploit_utilities.c */; };
@@ -159,6 +158,7 @@
 		F1EC83E42413559400D81445 /* nvram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC83E32413559400D81445 /* nvram.swift */; };
 		F1F551DA246E585D001CE9FB /* bootstrap.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = F1F551D9246E585C001CE9FB /* bootstrap.tar.gz */; };
 		F1F551E8246E6788001CE9FB /* tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = F1F551E7246E677D001CE9FB /* tar.gz */; };
+		F1F92C3E29DBC56A00F8968A /* org.coolstar.sileo_2.3-1_iphoneos-arm.deb in Resources */ = {isa = PBXBuildFile; fileRef = F1F92C3D29DBC56A00F8968A /* org.coolstar.sileo_2.3-1_iphoneos-arm.deb */; };
 		F1FF240124AC946C00ACAE23 /* LogStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF240024AC946C00ACAE23 /* LogStream.swift */; };
 		F1FF240824AC97E500ACAE23 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF240724AC97E500ACAE23 /* LogViewController.swift */; };
 		F1FF240A24AD3FC200ACAE23 /* ObjcTryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF240924AD3FC200ACAE23 /* ObjcTryCatch.m */; };
@@ -325,7 +325,6 @@
 		F1A2B43124B41AEA0087D978 /* NonceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonceManager.swift; sourceTree = "<group>"; };
 		F1A2B43324B430570087D978 /* PanelScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelScrollView.swift; sourceTree = "<group>"; };
 		F1A2B43524B430760087D978 /* PanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelView.swift; sourceTree = "<group>"; };
-		F1B13F0226F2ACAB00A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.2.3_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		F1B4309725F23D0200EA2E05 /* cicuta_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cicuta_log.c; sourceTree = "<group>"; };
 		F1B4309825F23D0200EA2E05 /* voucher_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voucher_utils.h; sourceTree = "<group>"; };
 		F1B4309925F23D0200EA2E05 /* cicuta_virosa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cicuta_virosa.h; sourceTree = "<group>"; };
@@ -352,6 +351,7 @@
 		F1EC83E32413559400D81445 /* nvram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nvram.swift; sourceTree = "<group>"; };
 		F1F551D9246E585C001CE9FB /* bootstrap.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = bootstrap.tar.gz; sourceTree = "<group>"; };
 		F1F551E7246E677D001CE9FB /* tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = tar.gz; sourceTree = "<group>"; };
+		F1F92C3D29DBC56A00F8968A /* org.coolstar.sileo_2.3-1_iphoneos-arm.deb */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "org.coolstar.sileo_2.3-1_iphoneos-arm.deb"; sourceTree = "<group>"; };
 		F1FF240024AC946C00ACAE23 /* LogStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStream.swift; sourceTree = "<group>"; };
 		F1FF240724AC97E500ACAE23 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		F1FF240924AD3FC200ACAE23 /* ObjcTryCatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcTryCatch.m; sourceTree = "<group>"; };
@@ -613,7 +613,7 @@
 				F1BE3B88246DE89C005E0C00 /* basebinaries.tar */,
 				F1F551D9246E585C001CE9FB /* bootstrap.tar.gz */,
 				1BFC3154256960E80012652C /* essential_0-4_iphoneos-arm.deb */,
-				F1B13F0226F2ACAB00A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb */,
+				F1F92C3D29DBC56A00F8968A /* org.coolstar.sileo_2.3-1_iphoneos-arm.deb */,
 				F13C1675243C0E3300194BF3 /* signcert.p12 */,
 				F1F551E7246E677D001CE9FB /* tar.gz */,
 				F104F29D25BFA1B100501E1C /* uicache.gz */,
@@ -785,7 +785,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFC3158256960F50012652C /* essential_0-4_iphoneos-arm.deb in Resources */,
-				F1B13F0426F2ACB400A7B70E /* org.coolstar.sileo_2.2.3_iphoneos-arm.deb in Resources */,
+				F1F92C3E29DBC56A00F8968A /* org.coolstar.sileo_2.3-1_iphoneos-arm.deb in Resources */,
 				36C0994624A456390043250A /* LaunchScreen.storyboard in Resources */,
 				F13C1676243C108D00194BF3 /* signcert.p12 in Resources */,
 				F191A9BF2432EC17005E0F8F /* BuildConfigs.xcconfig in Resources */,
@@ -1153,7 +1153,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.4.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
@@ -1192,7 +1192,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Odyssey/resources",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.4.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					IOKit,
