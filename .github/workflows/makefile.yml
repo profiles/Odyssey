@@ -1,0 +1,32 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: xcode-select --install
+
+    - name: Install dependencies
+      run: make
+
+    - name: Run Makefile
+      run: |
+        make clean
+        make all
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Odyssey IPA
+        path: Odyssey.ipa
