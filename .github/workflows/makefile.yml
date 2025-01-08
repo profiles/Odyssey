@@ -19,6 +19,11 @@ jobs:
         brew install make
         brew install ldid
 
+    - name: Set up Xcode
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: '11.7'
+
     - name: Run Makefile
       run: |
         make clean
